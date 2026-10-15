@@ -1,0 +1,16 @@
+﻿# 安装依赖（建议 Python 3.9 ~ 3.11，torch 2.x）
+# 国内加速：pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+#
+# 注意：torch 请按官网命令安装与你 CUDA 匹配的版本
+#       CPU 版：pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+pillow>=9.5.0
+numpy>=1.23.0
+tqdm>=4.65.0
+PyYAML>=6.0
+
+# 可选：Phase 3 报告里的可视化 / 额外指标（代码中对它们做了 try/except，可不安）
+matplotlib>=3.7.0
+scikit-learn>=1.2.0

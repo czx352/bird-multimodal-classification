@@ -1,0 +1,66 @@
+# 鸟类多模态分类 —— 全局配置
+# 换融合方式只需要改 fusion.name 一个字段，其余实验（消融）都复用同一套入口。
+seed: 42
+
+data:
+  # 原始数据目录：类别文件夹 + 同名 jpg/txt（CUB 风格）
+  root: datasets
+  # 由 01_prepare_data.py 生成；训练脚本统一读它
+  annotations: datasets/annotations.json
+  image_size: 224
+  # 训练/验证/测试 划分比例
+  split: [0.6, 0.2, 0.2]
+  # 每张图对应的描述条数（txt 行数）
+  captions_per_image: 10
+
+image_encoder:
+  backbone: resnet18        # resnet18 / resnet34 / resnet50
+  pretrained: true
+  freeze: true              # 冻结主干，只训练融合层 + 分类头（CPU 也能几分钟跑完）
+  out_dim: 512              # resnet18 原生维度，保持 None 亦可
+  dropout: 0.1
+
+text_encoder:
+  model_name: bert-base-uncased
+  freeze: true
+  out_dim: 768              # bert-base 原生维度
+  pooling: mean             # cls / mean
+  dropout: 0.1
+  max_length: 64
+
+fusion:
+  name: cross_attention     # early / late / cross_attention / gated
+  hidden_dim: 512
+  num_heads: 8              # 仅 cross_attention 使用
+  dropout: 0.1
+
+train:
+  batch_size: 16
+  epochs: 10
+  lr: 1.0e-4
+  weight_decay: 0.01
+  num_workers: 0
+  device: auto              # auto / cpu / cuda
+
+# 单模态 Image-Only 训练用（02_singleModal_ImageOnly.py）
+image_only:
+  backbone: resnet18
+  pretrained: true
+  freeze_backbone: false    # 单模态要真正训练主干
+  epochs: 10
+  lr: 1.0e-4
+  batch_size: 16
+
+# 单模态 Text-Only 训练用（02_singleModal_TextOnly.py）
+text_only:
+  model_name: bert-base-uncased
+  freeze_bert: false
+  epochs: 10
+  lr: 2.0e-5
+  batch_size: 16
+  max_length: 64
+
+clip:
+  model_name: openai/clip-vit-base-patch32
+  prompt_template: "a photo of a {}, a type of bird"
+  batch_size: 32

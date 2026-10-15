@@ -1,0 +1,1320 @@
+{
+  "meta": {
+    "source": "C:\\Users\\21860\\Documents\\Trae-CN\\temp_20261013_02\\bird_multimodal\\datasets",
+    "num_classes": 5,
+    "num_captions": 10,
+    "split_ratio": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "seed": 42,
+    "counts": {
+      "train": 50,
+      "val": 15,
+      "test": 15
+    }
+  },
+  "classes": [
+    "001.Red_bird",
+    "002.Blue_bird",
+    "003.Green_bird",
+    "004.Yellow_bird",
+    "005.Purple_bird"
+  ],
+  "class_prompts": {
+    "001.Red_bird": "a photo of a red bird",
+    "002.Blue_bird": "a photo of a blue bird",
+    "003.Green_bird": "a photo of a green bird",
+    "004.Yellow_bird": "a photo of a yellow bird",
+    "005.Purple_bird": "a photo of a purple bird"
+  },
+  "splits": {
+    "train": [
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0009.jpg",
+        "captions": [
+          "a red bird with a small body",
+          "a scarlet bird with a short beak",
+          "a scarlet bird with long wings",
+          "a crimson bird with a short beak",
+          "a red bird with long wings",
+          "a crimson bird with a short beak",
+          "a red bird with a short beak",
+          "a scarlet bird with a short beak",
+          "a red bird with a small body",
+          "a crimson bird with a short beak"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0015.jpg",
+        "captions": [
+          "a blue bird with long wings",
+          "a blue bird with a short beak",
+          "a cobalt bird with a small body",
+          "a azure bird with a short beak",
+          "a cobalt bird with a short beak",
+          "a blue bird with long wings",
+          "a blue bird with long wings",
+          "a cobalt bird with a small body",
+          "a cobalt bird with a small body",
+          "a azure bird with long wings"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0007.jpg",
+        "captions": [
+          "a emerald bird with a small body",
+          "a olive bird with long wings",
+          "a emerald bird with a small body",
+          "a green bird with a short beak",
+          "a olive bird with a small body",
+          "a olive bird with a short beak",
+          "a green bird with a small body",
+          "a emerald bird with a small body",
+          "a olive bird with a short beak",
+          "a olive bird with a short beak"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0013.jpg",
+        "captions": [
+          "a olive bird with a small body",
+          "a olive bird with a short beak",
+          "a green bird with a short beak",
+          "a olive bird with long wings",
+          "a emerald bird with a small body",
+          "a olive bird with a small body",
+          "a olive bird with long wings",
+          "a green bird with a short beak",
+          "a emerald bird with a short beak",
+          "a emerald bird with a short beak"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0007.jpg",
+        "captions": [
+          "a scarlet bird with long wings",
+          "a scarlet bird with a short beak",
+          "a crimson bird with long wings",
+          "a scarlet bird with long wings",
+          "a scarlet bird with long wings",
+          "a scarlet bird with a short beak",
+          "a scarlet bird with a small body",
+          "a red bird with a small body",
+          "a scarlet bird with long wings",
+          "a scarlet bird with long wings"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0011.jpg",
+        "captions": [
+          "a olive bird with long wings",
+          "a emerald bird with a small body",
+          "a green bird with a small body",
+          "a emerald bird with a small body",
+          "a olive bird with long wings",
+          "a emerald bird with a short beak",
+          "a green bird with long wings",
+          "a green bird with long wings",
+          "a olive bird with a short beak",
+          "a emerald bird with a small body"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0012.jpg",
+        "captions": [
+          "a yellow bird with long wings",
+          "a amber bird with a short beak",
+          "a yellow bird with long wings",
+          "a golden bird with long wings",
+          "a amber bird with a small body",
+          "a golden bird with a small body",
+          "a yellow bird with long wings",
+          "a amber bird with a small body",
+          "a golden bird with long wings",
+          "a amber bird with a small body"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0011.jpg",
+        "captions": [
+          "a amber bird with long wings",
+          "a amber bird with long wings",
+          "a golden bird with a small body",
+          "a amber bird with a short beak",
+          "a golden bird with a short beak",
+          "a yellow bird with a small body",
+          "a amber bird with long wings",
+          "a yellow bird with long wings",
+          "a yellow bird with a small body",
+          "a golden bird with a short beak"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0005.jpg",
+        "captions": [
+          "a golden bird with a short beak",
+          "a amber bird with long wings",
+          "a amber bird with long wings",
+          "a yellow bird with long wings",
+          "a golden bird with long wings",
+          "a golden bird with long wings",
+          "a amber bird with a short beak",
+          "a yellow bird with long wings",
+          "a golden bird with a small body",
+          "a golden bird with long wings"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0010.jpg",
+        "captions": [
+          "a scarlet bird with a short beak",
+          "a red bird with a small body",
+          "a crimson bird with a small body",
+          "a red bird with long wings",
+          "a scarlet bird with a small body",
+          "a crimson bird with a short beak",
+          "a scarlet bird with a small body",
+          "a scarlet bird with a short beak",
+          "a scarlet bird with long wings",
+          "a crimson bird with a small body"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0009.jpg",
+        "captions": [
+          "a olive bird with a small body",
+          "a emerald bird with a small body",
+          "a olive bird with long wings",
+          "a emerald bird with long wings",
+          "a olive bird with a small body",
+          "a emerald bird with long wings",
+          "a green bird with a short beak",
+          "a emerald bird with long wings",
+          "a green bird with long wings",
+          "a olive bird with a small body"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0010.jpg",
+        "captions": [
+          "a golden bird with a short beak",
+          "a golden bird with a small body",
+          "a golden bird with long wings",
+          "a golden bird with a small body",
+          "a amber bird with long wings",
+          "a golden bird with long wings",
+          "a yellow bird with a small body",
+          "a yellow bird with a small body",
+          "a golden bird with a short beak",
+          "a golden bird with a short beak"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0005.jpg",
+        "captions": [
+          "a lavender bird with long wings",
+          "a purple bird with a small body",
+          "a purple bird with long wings",
+          "a purple bird with a small body",
+          "a lavender bird with long wings",
+          "a lavender bird with a short beak",
+          "a lavender bird with a short beak",
+          "a lavender bird with long wings",
+          "a lavender bird with long wings",
+          "a lavender bird with long wings"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0002.jpg",
+        "captions": [
+          "a crimson bird with a short beak",
+          "a red bird with long wings",
+          "a red bird with long wings",
+          "a crimson bird with a small body",
+          "a crimson bird with a short beak",
+          "a scarlet bird with long wings",
+          "a scarlet bird with a short beak",
+          "a crimson bird with a short beak",
+          "a scarlet bird with long wings",
+          "a scarlet bird with a small body"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0001.jpg",
+        "captions": [
+          "a blue bird with a small body",
+          "a blue bird with long wings",
+          "a blue bird with a small body",
+          "a blue bird with a small body",
+          "a cobalt bird with a short beak",
+          "a cobalt bird with a short beak",
+          "a azure bird with a small body",
+          "a cobalt bird with a small body",
+          "a cobalt bird with long wings",
+          "a azure bird with a short beak"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0002.jpg",
+        "captions": [
+          "a golden bird with a small body",
+          "a golden bird with a short beak",
+          "a amber bird with a short beak",
+          "a golden bird with a small body",
+          "a amber bird with a small body",
+          "a yellow bird with long wings",
+          "a yellow bird with a small body",
+          "a yellow bird with a small body",
+          "a yellow bird with long wings",
+          "a yellow bird with a short beak"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0008.jpg",
+        "captions": [
+          "a crimson bird with long wings",
+          "a red bird with long wings",
+          "a red bird with a small body",
+          "a scarlet bird with long wings",
+          "a scarlet bird with a short beak",
+          "a scarlet bird with a short beak",
+          "a scarlet bird with long wings",
+          "a scarlet bird with a small body",
+          "a scarlet bird with a short beak",
+          "a red bird with long wings"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0011.jpg",
+        "captions": [
+          "a azure bird with a small body",
+          "a azure bird with a small body",
+          "a blue bird with a small body",
+          "a azure bird with a small body",
+          "a azure bird with a small body",
+          "a azure bird with long wings",
+          "a azure bird with a small body",
+          "a azure bird with a small body",
+          "a blue bird with a short beak",
+          "a azure bird with a small body"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0001.jpg",
+        "captions": [
+          "a scarlet bird with a short beak",
+          "a scarlet bird with a short beak",
+          "a scarlet bird with a small body",
+          "a scarlet bird with a small body",
+          "a crimson bird with a short beak",
+          "a crimson bird with a small body",
+          "a crimson bird with a short beak",
+          "a red bird with a small body",
+          "a crimson bird with long wings",
+          "a crimson bird with a short beak"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0007.jpg",
+        "captions": [
+          "a golden bird with a small body",
+          "a golden bird with a short beak",
+          "a yellow bird with long wings",
+          "a amber bird with a short beak",
+          "a golden bird with long wings",
+          "a amber bird with long wings",
+          "a yellow bird with a short beak",
+          "a amber bird with a small body",
+          "a yellow bird with a small body",
+          "a yellow bird with long wings"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0015.jpg",
+        "captions": [
+          "a amber bird with a short beak",
+          "a golden bird with a small body",
+          "a yellow bird with a short beak",
+          "a golden bird with a small body",
+          "a golden bird with long wings",
+          "a golden bird with a small body",
+          "a yellow bird with long wings",
+          "a golden bird with a small body",
+          "a amber bird with a short beak",
+          "a yellow bird with long wings"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0012.jpg",
+        "captions": [
+          "a violet bird with a short beak",
+          "a purple bird with long wings",
+          "a lavender bird with a short beak",
+          "a purple bird with a short beak",
+          "a violet bird with a small body",
+          "a lavender bird with a small body",
+          "a lavender bird with a small body",
+          "a violet bird with long wings",
+          "a lavender bird with a small body",
+          "a violet bird with long wings"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0013.jpg",
+        "captions": [
+          "a cobalt bird with a short beak",
+          "a cobalt bird with long wings",
+          "a cobalt bird with a short beak",
+          "a cobalt bird with a short beak",
+          "a azure bird with a small body",
+          "a cobalt bird with a small body",
+          "a cobalt bird with long wings",
+          "a blue bird with a short beak",
+          "a cobalt bird with long wings",
+          "a blue bird with a short beak"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0009.jpg",
+        "captions": [
+          "a purple bird with a small body",
+          "a purple bird with a small body",
+          "a purple bird with a short beak",
+          "a violet bird with a short beak",
+          "a lavender bird with a short beak",
+          "a violet bird with a short beak",
+          "a purple bird with a small body",
+          "a violet bird with a short beak",
+          "a purple bird with a small body",
+          "a purple bird with a short beak"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0003.jpg",
+        "captions": [
+          "a violet bird with a short beak",
+          "a purple bird with a short beak",
+          "a lavender bird with long wings",
+          "a lavender bird with a small body",
+          "a violet bird with a short beak",
+          "a violet bird with long wings",
+          "a violet bird with a small body",
+          "a violet bird with a short beak",
+          "a violet bird with a short beak",
+          "a purple bird with a short beak"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0012.jpg",
+        "captions": [
+          "a red bird with a short beak",
+          "a crimson bird with a short beak",
+          "a scarlet bird with a short beak",
+          "a crimson bird with a small body",
+          "a crimson bird with a short beak",
+          "a scarlet bird with a short beak",
+          "a scarlet bird with a small body",
+          "a scarlet bird with long wings",
+          "a red bird with long wings",
+          "a crimson bird with a short beak"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0002.jpg",
+        "captions": [
+          "a lavender bird with a small body",
+          "a lavender bird with a small body",
+          "a purple bird with a small body",
+          "a purple bird with a small body",
+          "a lavender bird with a short beak",
+          "a violet bird with long wings",
+          "a purple bird with a small body",
+          "a violet bird with a small body",
+          "a purple bird with a short beak",
+          "a violet bird with long wings"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0000.jpg",
+        "captions": [
+          "a olive bird with a small body",
+          "a emerald bird with a small body",
+          "a emerald bird with a short beak",
+          "a olive bird with long wings",
+          "a emerald bird with long wings",
+          "a green bird with a small body",
+          "a emerald bird with a small body",
+          "a emerald bird with a small body",
+          "a green bird with long wings",
+          "a emerald bird with a short beak"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0006.jpg",
+        "captions": [
+          "a green bird with long wings",
+          "a olive bird with a short beak",
+          "a olive bird with a short beak",
+          "a emerald bird with a small body",
+          "a emerald bird with long wings",
+          "a green bird with a small body",
+          "a olive bird with a small body",
+          "a olive bird with a short beak",
+          "a green bird with long wings",
+          "a green bird with a small body"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0006.jpg",
+        "captions": [
+          "a cobalt bird with a short beak",
+          "a cobalt bird with a short beak",
+          "a azure bird with a small body",
+          "a cobalt bird with a short beak",
+          "a azure bird with a short beak",
+          "a blue bird with long wings",
+          "a azure bird with a short beak",
+          "a azure bird with a short beak",
+          "a cobalt bird with a short beak",
+          "a cobalt bird with a short beak"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0014.jpg",
+        "captions": [
+          "a violet bird with long wings",
+          "a lavender bird with long wings",
+          "a violet bird with a short beak",
+          "a lavender bird with long wings",
+          "a purple bird with a short beak",
+          "a purple bird with a short beak",
+          "a violet bird with a short beak",
+          "a lavender bird with a small body",
+          "a violet bird with a short beak",
+          "a lavender bird with a short beak"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0012.jpg",
+        "captions": [
+          "a azure bird with a small body",
+          "a cobalt bird with a short beak",
+          "a cobalt bird with a small body",
+          "a azure bird with long wings",
+          "a cobalt bird with a short beak",
+          "a azure bird with long wings",
+          "a blue bird with long wings",
+          "a cobalt bird with a small body",
+          "a cobalt bird with long wings",
+          "a azure bird with long wings"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0014.jpg",
+        "captions": [
+          "a scarlet bird with long wings",
+          "a red bird with long wings",
+          "a red bird with long wings",
+          "a crimson bird with a short beak",
+          "a red bird with long wings",
+          "a scarlet bird with a short beak",
+          "a red bird with a small body",
+          "a scarlet bird with a short beak",
+          "a red bird with a short beak",
+          "a red bird with long wings"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0000.jpg",
+        "captions": [
+          "a violet bird with a small body",
+          "a violet bird with a small body",
+          "a violet bird with a small body",
+          "a violet bird with long wings",
+          "a violet bird with a short beak",
+          "a violet bird with long wings",
+          "a purple bird with a short beak",
+          "a violet bird with a small body",
+          "a violet bird with a small body",
+          "a violet bird with a small body"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0008.jpg",
+        "captions": [
+          "a olive bird with long wings",
+          "a olive bird with long wings",
+          "a green bird with a small body",
+          "a olive bird with long wings",
+          "a green bird with long wings",
+          "a emerald bird with a short beak",
+          "a emerald bird with long wings",
+          "a olive bird with long wings",
+          "a olive bird with a short beak",
+          "a emerald bird with a short beak"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0009.jpg",
+        "captions": [
+          "a amber bird with a short beak",
+          "a golden bird with a short beak",
+          "a amber bird with a small body",
+          "a amber bird with a short beak",
+          "a yellow bird with long wings",
+          "a golden bird with long wings",
+          "a amber bird with long wings",
+          "a yellow bird with long wings",
+          "a amber bird with long wings",
+          "a amber bird with a small body"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0005.jpg",
+        "captions": [
+          "a crimson bird with a short beak",
+          "a red bird with a short beak",
+          "a crimson bird with long wings",
+          "a crimson bird with a short beak",
+          "a red bird with a small body",
+          "a scarlet bird with long wings",
+          "a red bird with a small body",
+          "a crimson bird with long wings",
+          "a scarlet bird with long wings",
+          "a red bird with long wings"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0011.jpg",
+        "captions": [
+          "a violet bird with a small body",
+          "a purple bird with a small body",
+          "a purple bird with a small body",
+          "a lavender bird with a small body",
+          "a violet bird with long wings",
+          "a lavender bird with a short beak",
+          "a purple bird with long wings",
+          "a violet bird with long wings",
+          "a lavender bird with a short beak",
+          "a violet bird with a small body"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0006.jpg",
+        "captions": [
+          "a red bird with a small body",
+          "a scarlet bird with a small body",
+          "a crimson bird with a small body",
+          "a scarlet bird with long wings",
+          "a scarlet bird with long wings",
+          "a crimson bird with a short beak",
+          "a red bird with a small body",
+          "a crimson bird with a short beak",
+          "a red bird with a short beak",
+          "a red bird with a small body"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0012.jpg",
+        "captions": [
+          "a emerald bird with long wings",
+          "a olive bird with a small body",
+          "a emerald bird with long wings",
+          "a olive bird with a small body",
+          "a emerald bird with long wings",
+          "a olive bird with long wings",
+          "a emerald bird with long wings",
+          "a emerald bird with a short beak",
+          "a green bird with a small body",
+          "a green bird with long wings"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0002.jpg",
+        "captions": [
+          "a cobalt bird with long wings",
+          "a blue bird with long wings",
+          "a azure bird with a short beak",
+          "a cobalt bird with a small body",
+          "a azure bird with long wings",
+          "a azure bird with a short beak",
+          "a blue bird with long wings",
+          "a cobalt bird with a small body",
+          "a blue bird with a short beak",
+          "a cobalt bird with a short beak"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0000.jpg",
+        "captions": [
+          "a golden bird with a small body",
+          "a amber bird with a small body",
+          "a yellow bird with a small body",
+          "a golden bird with long wings",
+          "a golden bird with long wings",
+          "a amber bird with long wings",
+          "a golden bird with a small body",
+          "a amber bird with a short beak",
+          "a amber bird with a small body",
+          "a yellow bird with a short beak"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0010.jpg",
+        "captions": [
+          "a violet bird with a short beak",
+          "a lavender bird with long wings",
+          "a purple bird with a short beak",
+          "a violet bird with a short beak",
+          "a purple bird with a small body",
+          "a violet bird with a small body",
+          "a purple bird with a small body",
+          "a purple bird with long wings",
+          "a violet bird with long wings",
+          "a lavender bird with a small body"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0010.jpg",
+        "captions": [
+          "a azure bird with a small body",
+          "a blue bird with long wings",
+          "a blue bird with a small body",
+          "a azure bird with a short beak",
+          "a cobalt bird with a small body",
+          "a cobalt bird with a small body",
+          "a cobalt bird with a small body",
+          "a cobalt bird with a short beak",
+          "a azure bird with long wings",
+          "a blue bird with a small body"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0014.jpg",
+        "captions": [
+          "a green bird with a small body",
+          "a olive bird with a short beak",
+          "a emerald bird with a short beak",
+          "a green bird with a small body",
+          "a emerald bird with a small body",
+          "a green bird with a small body",
+          "a emerald bird with a short beak",
+          "a green bird with a small body",
+          "a emerald bird with long wings",
+          "a emerald bird with long wings"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0015.jpg",
+        "captions": [
+          "a green bird with a short beak",
+          "a emerald bird with long wings",
+          "a green bird with a short beak",
+          "a emerald bird with long wings",
+          "a green bird with a small body",
+          "a olive bird with a small body",
+          "a green bird with a short beak",
+          "a green bird with a small body",
+          "a emerald bird with a short beak",
+          "a green bird with a short beak"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0005.jpg",
+        "captions": [
+          "a blue bird with a short beak",
+          "a cobalt bird with long wings",
+          "a azure bird with a short beak",
+          "a blue bird with long wings",
+          "a blue bird with a small body",
+          "a azure bird with a short beak",
+          "a cobalt bird with long wings",
+          "a cobalt bird with a small body",
+          "a azure bird with a small body",
+          "a blue bird with a short beak"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0004.jpg",
+        "captions": [
+          "a blue bird with long wings",
+          "a blue bird with a short beak",
+          "a cobalt bird with a small body",
+          "a blue bird with long wings",
+          "a azure bird with a small body",
+          "a blue bird with a small body",
+          "a azure bird with a short beak",
+          "a cobalt bird with a small body",
+          "a azure bird with a small body",
+          "a azure bird with long wings"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0008.jpg",
+        "captions": [
+          "a lavender bird with long wings",
+          "a purple bird with long wings",
+          "a violet bird with a short beak",
+          "a purple bird with long wings",
+          "a purple bird with a small body",
+          "a purple bird with a small body",
+          "a lavender bird with a small body",
+          "a purple bird with a short beak",
+          "a violet bird with a short beak",
+          "a purple bird with a small body"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0013.jpg",
+        "captions": [
+          "a golden bird with a small body",
+          "a yellow bird with a small body",
+          "a yellow bird with a short beak",
+          "a amber bird with a small body",
+          "a golden bird with a short beak",
+          "a amber bird with a short beak",
+          "a golden bird with a short beak",
+          "a amber bird with a small body",
+          "a yellow bird with long wings",
+          "a yellow bird with a small body"
+        ],
+        "label": 3
+      }
+    ],
+    "val": [
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0003.jpg",
+        "captions": [
+          "a olive bird with a short beak",
+          "a emerald bird with a short beak",
+          "a emerald bird with long wings",
+          "a emerald bird with a short beak",
+          "a emerald bird with long wings",
+          "a olive bird with a small body",
+          "a emerald bird with a small body",
+          "a green bird with long wings",
+          "a green bird with a small body",
+          "a olive bird with a short beak"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0013.jpg",
+        "captions": [
+          "a red bird with a small body",
+          "a crimson bird with long wings",
+          "a crimson bird with long wings",
+          "a crimson bird with a small body",
+          "a red bird with a small body",
+          "a scarlet bird with a small body",
+          "a red bird with a short beak",
+          "a crimson bird with a small body",
+          "a crimson bird with a short beak",
+          "a red bird with a short beak"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0000.jpg",
+        "captions": [
+          "a blue bird with a short beak",
+          "a cobalt bird with a small body",
+          "a cobalt bird with a short beak",
+          "a cobalt bird with long wings",
+          "a blue bird with a short beak",
+          "a cobalt bird with long wings",
+          "a cobalt bird with a small body",
+          "a blue bird with a short beak",
+          "a cobalt bird with a short beak",
+          "a blue bird with a short beak"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0004.jpg",
+        "captions": [
+          "a lavender bird with a small body",
+          "a lavender bird with long wings",
+          "a lavender bird with long wings",
+          "a purple bird with long wings",
+          "a purple bird with long wings",
+          "a lavender bird with a short beak",
+          "a violet bird with long wings",
+          "a lavender bird with a small body",
+          "a lavender bird with long wings",
+          "a lavender bird with long wings"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0005.jpg",
+        "captions": [
+          "a emerald bird with long wings",
+          "a green bird with long wings",
+          "a green bird with a small body",
+          "a olive bird with a short beak",
+          "a emerald bird with a short beak",
+          "a olive bird with a short beak",
+          "a olive bird with a short beak",
+          "a green bird with a short beak",
+          "a green bird with a short beak",
+          "a olive bird with a short beak"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0014.jpg",
+        "captions": [
+          "a blue bird with a short beak",
+          "a blue bird with long wings",
+          "a cobalt bird with a short beak",
+          "a azure bird with long wings",
+          "a cobalt bird with a small body",
+          "a blue bird with a small body",
+          "a cobalt bird with long wings",
+          "a azure bird with long wings",
+          "a blue bird with a short beak",
+          "a cobalt bird with a small body"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0003.jpg",
+        "captions": [
+          "a azure bird with a short beak",
+          "a azure bird with a short beak",
+          "a blue bird with long wings",
+          "a azure bird with a short beak",
+          "a azure bird with a small body",
+          "a cobalt bird with long wings",
+          "a cobalt bird with a small body",
+          "a cobalt bird with a short beak",
+          "a cobalt bird with a small body",
+          "a azure bird with a small body"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0001.jpg",
+        "captions": [
+          "a yellow bird with long wings",
+          "a amber bird with a short beak",
+          "a yellow bird with a short beak",
+          "a yellow bird with a small body",
+          "a yellow bird with a short beak",
+          "a yellow bird with long wings",
+          "a golden bird with a small body",
+          "a amber bird with long wings",
+          "a golden bird with a short beak",
+          "a yellow bird with long wings"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0015.jpg",
+        "captions": [
+          "a crimson bird with a short beak",
+          "a crimson bird with a short beak",
+          "a red bird with long wings",
+          "a red bird with long wings",
+          "a crimson bird with long wings",
+          "a crimson bird with long wings",
+          "a scarlet bird with a small body",
+          "a scarlet bird with a small body",
+          "a scarlet bird with long wings",
+          "a red bird with a short beak"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0004.jpg",
+        "captions": [
+          "a golden bird with a small body",
+          "a golden bird with a small body",
+          "a golden bird with a short beak",
+          "a yellow bird with a short beak",
+          "a amber bird with a small body",
+          "a amber bird with a short beak",
+          "a amber bird with long wings",
+          "a amber bird with a short beak",
+          "a yellow bird with long wings",
+          "a amber bird with a small body"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0001.jpg",
+        "captions": [
+          "a emerald bird with a short beak",
+          "a emerald bird with long wings",
+          "a emerald bird with a small body",
+          "a green bird with a short beak",
+          "a green bird with a short beak",
+          "a emerald bird with a small body",
+          "a green bird with a small body",
+          "a green bird with a short beak",
+          "a emerald bird with long wings",
+          "a emerald bird with a small body"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0006.jpg",
+        "captions": [
+          "a purple bird with a short beak",
+          "a purple bird with long wings",
+          "a violet bird with a short beak",
+          "a purple bird with a short beak",
+          "a lavender bird with a short beak",
+          "a violet bird with long wings",
+          "a violet bird with a small body",
+          "a lavender bird with a small body",
+          "a lavender bird with long wings",
+          "a lavender bird with a small body"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0015.jpg",
+        "captions": [
+          "a lavender bird with a small body",
+          "a violet bird with a small body",
+          "a purple bird with long wings",
+          "a violet bird with a small body",
+          "a violet bird with a small body",
+          "a purple bird with long wings",
+          "a lavender bird with long wings",
+          "a violet bird with a short beak",
+          "a lavender bird with a small body",
+          "a purple bird with a short beak"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0004.jpg",
+        "captions": [
+          "a scarlet bird with long wings",
+          "a scarlet bird with a small body",
+          "a scarlet bird with a short beak",
+          "a scarlet bird with a small body",
+          "a red bird with a small body",
+          "a scarlet bird with a short beak",
+          "a red bird with long wings",
+          "a crimson bird with long wings",
+          "a scarlet bird with a small body",
+          "a scarlet bird with a short beak"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0008.jpg",
+        "captions": [
+          "a yellow bird with a small body",
+          "a golden bird with a short beak",
+          "a yellow bird with a short beak",
+          "a golden bird with a short beak",
+          "a amber bird with a short beak",
+          "a golden bird with a small body",
+          "a golden bird with a small body",
+          "a amber bird with long wings",
+          "a golden bird with long wings",
+          "a golden bird with a short beak"
+        ],
+        "label": 3
+      }
+    ],
+    "test": [
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0002.jpg",
+        "captions": [
+          "a emerald bird with a short beak",
+          "a green bird with long wings",
+          "a emerald bird with a small body",
+          "a olive bird with a short beak",
+          "a olive bird with long wings",
+          "a emerald bird with a short beak",
+          "a emerald bird with long wings",
+          "a emerald bird with long wings",
+          "a olive bird with a small body",
+          "a olive bird with a small body"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0006.jpg",
+        "captions": [
+          "a golden bird with a small body",
+          "a yellow bird with long wings",
+          "a yellow bird with long wings",
+          "a golden bird with long wings",
+          "a yellow bird with long wings",
+          "a amber bird with a short beak",
+          "a amber bird with a small body",
+          "a golden bird with long wings",
+          "a yellow bird with a short beak",
+          "a amber bird with long wings"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0011.jpg",
+        "captions": [
+          "a crimson bird with long wings",
+          "a scarlet bird with long wings",
+          "a red bird with a short beak",
+          "a red bird with a short beak",
+          "a crimson bird with a short beak",
+          "a scarlet bird with a small body",
+          "a red bird with a small body",
+          "a red bird with a short beak",
+          "a red bird with a small body",
+          "a scarlet bird with a short beak"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0013.jpg",
+        "captions": [
+          "a lavender bird with long wings",
+          "a purple bird with a small body",
+          "a purple bird with a small body",
+          "a lavender bird with a small body",
+          "a lavender bird with a short beak",
+          "a violet bird with long wings",
+          "a purple bird with long wings",
+          "a violet bird with long wings",
+          "a violet bird with long wings",
+          "a lavender bird with a short beak"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0004.jpg",
+        "captions": [
+          "a emerald bird with a small body",
+          "a olive bird with a small body",
+          "a green bird with a short beak",
+          "a olive bird with long wings",
+          "a green bird with long wings",
+          "a green bird with a short beak",
+          "a emerald bird with long wings",
+          "a emerald bird with a short beak",
+          "a emerald bird with long wings",
+          "a emerald bird with long wings"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0009.jpg",
+        "captions": [
+          "a azure bird with a small body",
+          "a cobalt bird with long wings",
+          "a blue bird with a short beak",
+          "a azure bird with a short beak",
+          "a cobalt bird with long wings",
+          "a blue bird with a short beak",
+          "a cobalt bird with long wings",
+          "a azure bird with a small body",
+          "a azure bird with long wings",
+          "a cobalt bird with a small body"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0003.jpg",
+        "captions": [
+          "a crimson bird with a small body",
+          "a red bird with a small body",
+          "a red bird with a short beak",
+          "a scarlet bird with a short beak",
+          "a crimson bird with a short beak",
+          "a red bird with a short beak",
+          "a crimson bird with long wings",
+          "a crimson bird with a small body",
+          "a crimson bird with a short beak",
+          "a crimson bird with long wings"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0001.jpg",
+        "captions": [
+          "a purple bird with a small body",
+          "a violet bird with long wings",
+          "a purple bird with a small body",
+          "a lavender bird with a small body",
+          "a purple bird with a small body",
+          "a lavender bird with long wings",
+          "a violet bird with a short beak",
+          "a lavender bird with long wings",
+          "a purple bird with a small body",
+          "a purple bird with a small body"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0007.jpg",
+        "captions": [
+          "a cobalt bird with long wings",
+          "a cobalt bird with a small body",
+          "a blue bird with a short beak",
+          "a blue bird with a short beak",
+          "a azure bird with a short beak",
+          "a blue bird with a small body",
+          "a azure bird with long wings",
+          "a cobalt bird with a small body",
+          "a blue bird with long wings",
+          "a blue bird with a small body"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "002.Blue_bird/Blue_bird_002_0008.jpg",
+        "captions": [
+          "a azure bird with a short beak",
+          "a azure bird with a short beak",
+          "a blue bird with long wings",
+          "a azure bird with long wings",
+          "a blue bird with a short beak",
+          "a blue bird with a small body",
+          "a blue bird with long wings",
+          "a azure bird with long wings",
+          "a blue bird with long wings",
+          "a azure bird with a small body"
+        ],
+        "label": 1
+      },
+      {
+        "image_path": "003.Green_bird/Green_bird_003_0010.jpg",
+        "captions": [
+          "a emerald bird with long wings",
+          "a green bird with long wings",
+          "a emerald bird with a short beak",
+          "a emerald bird with a short beak",
+          "a emerald bird with long wings",
+          "a emerald bird with long wings",
+          "a olive bird with a small body",
+          "a emerald bird with a small body",
+          "a green bird with a small body",
+          "a green bird with a short beak"
+        ],
+        "label": 2
+      },
+      {
+        "image_path": "005.Purple_bird/Purple_bird_005_0007.jpg",
+        "captions": [
+          "a purple bird with long wings",
+          "a lavender bird with a short beak",
+          "a violet bird with a small body",
+          "a violet bird with long wings",
+          "a purple bird with a small body",
+          "a violet bird with a short beak",
+          "a violet bird with long wings",
+          "a purple bird with long wings",
+          "a purple bird with a small body",
+          "a violet bird with a small body"
+        ],
+        "label": 4
+      },
+      {
+        "image_path": "001.Red_bird/Red_bird_001_0000.jpg",
+        "captions": [
+          "a red bird with a short beak",
+          "a scarlet bird with long wings",
+          "a red bird with a short beak",
+          "a red bird with a small body",
+          "a red bird with a small body",
+          "a scarlet bird with a small body",
+          "a red bird with a small body",
+          "a crimson bird with a short beak",
+          "a red bird with a short beak",
+          "a red bird with a short beak"
+        ],
+        "label": 0
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0003.jpg",
+        "captions": [
+          "a yellow bird with long wings",
+          "a amber bird with a small body",
+          "a amber bird with long wings",
+          "a golden bird with a short beak",
+          "a golden bird with a small body",
+          "a golden bird with a small body",
+          "a golden bird with long wings",
+          "a amber bird with a small body",
+          "a golden bird with long wings",
+          "a yellow bird with a small body"
+        ],
+        "label": 3
+      },
+      {
+        "image_path": "004.Yellow_bird/Yellow_bird_004_0014.jpg",
+        "captions": [
+          "a yellow bird with a short beak",
+          "a golden bird with a short beak",
+          "a golden bird with long wings",
+          "a golden bird with long wings",
+          "a yellow bird with a short beak",
+          "a amber bird with long wings",
+          "a amber bird with a small body",
+          "a yellow bird with a short beak",
+          "a yellow bird with a short beak",
+          "a amber bird with long wings"
+        ],
+        "label": 3
+      }
+    ]
+  }
+}
